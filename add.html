@@ -1,0 +1,20 @@
+<!--CloudFlare API Test -->
+<center>
+    <h1>CloudFlare Add Sub domain</h1>
+    <p>Add the subdomain to CloudFlare and activate it.<br>
+    This will prevent DDoS attacks and enable free SSL that does not require renewal.<br>
+    This SSL uses Flexible mode, so it may not be suitable for WordPress sites.</p>
+    <form action="add_subdomain.php" method="post">
+        <h5>
+            <label for="subdomain">Sub domain:</label>
+            <input type="text" name="subdomain" id="subdomain" placeholder="cftest" required>.idmx.eu.org
+        </h5>
+        <p>
+            <label for="ip_address">Server IP Address:</label>
+            <input type="text" name="ip_address" id="ip_address" <!-- value="<?php $ip = gethostbyname($AccountInfo['account_domain']); echo $ip;?>" readonly ==> required >
+        </p>
+        <p>
+            <input class="btn btn-primary" type="submit" value="Add CloudFlare">
+        </p>
+    </form>
+</center>
