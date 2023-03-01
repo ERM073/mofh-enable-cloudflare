@@ -28,3 +28,11 @@ My English is not good, so if you need any help, please ask for help in the MOFH
 5. Replace $email in add_subdomain.php with the email address you registered with CloudFlare.
 
 6. Replace $DOMAIN_ZONE_ID in $endpoint of add_subdomain.php. To get the ZONE_ID, go to the CloudFlare dashboard, click on your domain, and it will be listed under [Overview].
+
+
+# Attention.
+
+1. You need to change your name servers to add your domain to CloudFlare.
+
+2. The website will not be accessible until the user processes the domain to be added to CloudFlare using this script.
+The problem can be solved by having this script run automatically when this user registers a subdomain, but it depends on your client area environment and you will have to make the improvements yourself.
