@@ -3,6 +3,9 @@ Enable CloudFlare for myownfreehost subdomain
 
 # Description.
 
+Demo site:
+https://cftest.idmx.eu.org/
+
 This is a sample code to add and activate an A record in CloudFlare.
 
 Security risks are your own responsibility.
